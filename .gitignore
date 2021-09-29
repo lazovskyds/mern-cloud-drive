@@ -1,0 +1,8 @@
+# server
+server/node_modules
+server/files
+server/static
+
+
+# client
+client/node_modules

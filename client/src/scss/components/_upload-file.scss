@@ -1,0 +1,51 @@
+.upload-file {
+    margin: 0 0 10px 0;
+
+    &:last-child {
+        margin: 0;
+    }
+    
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0 10px 0;
+    }
+
+    &__title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    &__close-btn {
+        background: none;
+        border: none;
+        font-weight: 700;
+        font-size: 16px;
+        color: $red;
+        transform: scaleY(0.8);
+        cursor: pointer;
+    }
+
+    &__progress-bar {
+        position: relative;
+        display: flex;
+        height: 20px;
+        background-color: lighten($gray, 40%);;
+        border-radius: 5px;
+    }
+
+    &__upload-bar {
+        height: 20px;
+        width: 50%;
+        border-radius: 5px;
+        background-color: $main;
+    }
+
+    &__percent {
+        color: #fff;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

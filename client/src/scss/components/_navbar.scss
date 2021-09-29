@@ -1,0 +1,68 @@
+.navbar {
+    background-color: $background;
+    height: 60px;
+    border-bottom: 1px solid $light-gray;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    color: $dark-gray;
+
+    &-left {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        height: 60px;
+    }
+
+    &-right {
+        height: 100%;
+        display: flex;
+        flex-shrink: 0;
+        align-items: center;
+        height: 60px;
+    }
+
+    &__logo {
+        height: 40px;
+        width: 40px;
+        margin: 0 10px 0 0;
+        fill: $main;
+
+        &-description {
+            font-size: 22px;
+            font-weight: 500;
+        }
+    }
+
+    &__icon {
+        height: 22px;
+        width: 25px;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    &__login {
+        fill: $green;
+    }
+    
+    &__registration {
+        fill: $main;
+    }
+
+    &__log-out {
+        fill: $red;
+    }
+
+    &__search {
+        display: flex;
+        align-items: center;
+
+        &-input {
+            height: 40px;
+            width: 300px;
+            border: 1px solid $light-gray;
+            border-radius: 5px;
+            padding: 0 15px;
+        }
+    }
+}

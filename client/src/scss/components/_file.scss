@@ -1,0 +1,54 @@
+.file {
+    height: 48px;
+    padding: 0 10px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 5fr repeat(4, 1fr);
+    border-bottom: 1px solid $light-gray;
+    color: $gray;
+    font-size: 14px;
+    cursor: pointer;
+    transition: .5s;
+
+    &:hover {
+        transition: .5s;
+        background-color: $hover;
+    }
+
+    &__icon-and-name {
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        height: 20px;
+        width: 20px;
+        fill: $gray;
+        margin: 0 10px 0 0;
+    }
+
+    &__name {
+        font-weight: 500;
+    }
+
+    &__btn {
+        height: 16px;
+        width: 16px;
+        fill: $gray;
+    }
+}
+
+.file-enter-active {
+    animation: file-enter 500ms forwards;
+}
+
+@keyframes file-enter {
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

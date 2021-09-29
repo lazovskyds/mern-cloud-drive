@@ -1,0 +1,50 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body, html, #root {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    background-color: $background;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    min-height: 100%;
+    background-color: #f5f5f5;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+
+    &:visited {
+        color: inherit!important
+    }
+}
+
+input {
+    outline: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}

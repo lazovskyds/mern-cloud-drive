@@ -1,0 +1,52 @@
+.auth {
+    display: flex;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+
+    &__form {
+        width: 400px;
+        padding: 40px;
+        background-color: #f5f5f5;
+    }
+
+    &__row {
+        margin: 0 0 20px 0;
+    }
+
+    &__label {
+        font-weight: 600;
+        font-size: 14px;
+        margin: 0 0 10px 0;
+    }
+
+    &__input {
+        height: 40px;
+        width: 100%;
+        padding: 10px;
+        border: 1px solid $light-gray;
+        border-radius: 5px;
+    }
+
+    &__button {
+        height: 30px;
+        border-radius: 5px;
+        padding: 0 25px;
+        background-color: $main;
+        color: #fff;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 24px;
+        margin: 0 0 30px 0;
+        color: $main;
+    }
+
+    &__picture {
+        width: calc(100% - 400px);
+        overflow: hidden;
+    }
+}

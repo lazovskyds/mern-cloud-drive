@@ -1,0 +1,50 @@
+.drive {
+
+    &-left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid $light-gray;
+        height: 48px;
+        padding: 0 15px;
+    }
+
+    &__icon {
+        cursor: pointer;
+        fill: $gray;
+        margin: 0 15px 0 0;
+    }
+
+    &__path {
+        font-size: 18px;
+        font-weight: 500;
+        color: $dark-gray;
+        margin: 0 15px 0 0;
+    }
+
+    &__go-back, &__plus-folder, &__upload-file {
+        height: 16px;
+        width: 16px;
+    }
+
+    &__upload-label {
+        display: flex;
+        align-items: center;
+    }
+
+    &__upload-input {
+        display: none;
+    }
+
+    &__select {
+        border: 1px solid $main;
+        border-radius: 5px;
+        color: $dark-gray;
+        padding: 5px;
+    }
+}
