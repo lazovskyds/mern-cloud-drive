@@ -1,6 +1,6 @@
 # Cloud Drive
 
-![preview image](https://image.prntscr.com/image/5wHa5K5xR1yS5YiLkRSL_g.png)
+![preview image](https://raw.githubusercontent.com/lazovskyds/mern-cloud-drive/master/preview.png)
 
 **It is a complete MERN full stack file storage application. The backend uses NodeJS + ExpressJS, Mongoose + MongoDB, JSON Web Tokens. On the frontend - ReactJS and Redax. Design based on Google Drive.**
 
