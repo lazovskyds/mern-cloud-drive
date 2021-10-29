@@ -1,13 +1,7 @@
 import React from 'react';
 import backgroundImg from '../assets/background.png';
 
-
-type AuthProps = {
-    title: string,
-    children: any
-}
-
-const Auth: React.FC<AuthProps> = ({title, children}) => {
+const Auth = ({title, children}) => {
     return (
         <div className="auth">
             <div className="auth__picture">
